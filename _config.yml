@@ -15,7 +15,7 @@ title                    : "Sam Kassan"
 title_separator          : "-"
 subtitle                 : "Personal Website"
 name                     : &name "Sam Kassan" # &name is a YAML anchor which can be *referenced later
-description              : &description "Example website for class "
+description              : &description "Personal Website "
 url                      : https://samkassan.github.io/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : 
@@ -98,8 +98,8 @@ analytics:
 author:
   name             : *name # *name is a YAML reference pointing to the &anchor earlier
   avatar           : "assets/img/David_Headshot_web2.jpg"
-  bio              : "An engineer with a passion for teaching "
-  location         : "Nashville, TN"
+  bio              : "Biomedical Engineering student with a passion for medical technology "
+  location         : "Port Washington, NY"
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
