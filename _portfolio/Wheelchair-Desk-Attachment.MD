@@ -3,10 +3,10 @@ title: "Wheelchair Desk Attachment"
 excerpt: "Lightweight folding desk attachment for wheelchairs."
 header:
   image: assets/img/DeskDemo.PNG
-  teaser: assets/img/DeskTeamPic.PNG
+  teaser: assets/img/Chancellor2.PNG
 gallery:
   - image_path: assets/img/DeskPrototype.PNG
-  - image_path: assets/img/Chancellor2.PNG
+  - image_path: assets/img/Chancellor.PNG
 
    
 ---
