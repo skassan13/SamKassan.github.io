@@ -6,7 +6,7 @@ header:
   teaser: assets/img/DeskTeamPic.PNG
 gallery:
   - image_path: assets/img/DeskPrototype.PNG
-  - image_path: assets/img/Chancellor.PNG
+  - image_path: assets/img/Chancellor2.PNG
 
    
 ---
