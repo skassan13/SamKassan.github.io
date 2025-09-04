@@ -17,5 +17,4 @@ Sam can operate a number of different tools to turn 3D models into real-life par
 * Stereolithography (SLA)
 * Laser Cutting
 
-## <img src="assets/img/Composite.jpg" alt="Sam Kassan" style="width:200px;"/>
-![Sam Kassan] (/assets/img/Composite.jpg)
+<img src="assets/img/Composite.jpg" alt="Sam Kassan" style="width:200px;"/>
