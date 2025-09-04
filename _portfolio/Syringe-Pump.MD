@@ -24,3 +24,24 @@ gallery:
 # CAD Model
 <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH286ddQT78850c0d8a408db1211465ff366?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 {% include gallery caption="Parametric drawings of original components" %}
+
+
+## Off-the-Shelf Components
+
+| Component                                   | Specification / Model                                  | Quantity |
+|---------------------------------------------|--------------------------------------------------------|----------|
+| Lead Screw                                  | 250 mm, 2 mm pitch, 2 mm lead                          | 1        |
+| Lead Screw                                  | 250 mm, 2 mm pitch, 8 mm lead                          | 1        |
+| Flexible Coupling                           | 1/4" x 8 mm                                            | 1        |
+| Linear Rod                                  | 200 mm, 8 mm diameter                                  | 2        |
+| Linear Bearing                              | LM8UU, for 8 mm rod                                    | 2        |
+| Aluminum Extrusion                          | 2040, 1 ft length                                      | 1        |
+| Stepper Motor                               | NEMA 17                                                | 1        |
+| Power Supply                                | MEAN WELL RQ-65D AC-DC Quad Output (5V, 12V, 24V, 12V, 4A) | 1        |
+| Arduino Board                               | Arduino Uno (GrabCAD model)                            | 1        |
+| Stepper Driver                              | A4988                                                  | 1        |
+| Breadboard                                  | Small                                                  | 1        |
+| Push Button (Latching)                      | Panel-mount, On/Off                                    | 1        |
+| Push Button (Momentary, bonus only)         | Panel-mount                                            | 1        |
+| Limit Switch                                | Standard                                               | 1        |
+| LED                                         | RGB, common cathode                                    | 1        |
