@@ -60,6 +60,15 @@ gallery:
 
 ## Parametric Drawings for 3D-Printed Components
 
+## Parametric Drawings for 3D-Printed Components
+
+![Enclosure Bottom](assets/img/Enclosure.png)
+![Enclosure Side Panel](assets/img/enclosure-side-drawing.png)
+![Enclosure Top](assets/img/enclosure-top-drawing.png)
+![Motor Mounting Piece](assets/img/motor-mount-drawing.png)
+![Carriage](assets/img/carriage-drawing.png)
+
+
 <div style="display:flex; flex-wrap: wrap; gap: 10px; justify-content: space-between;">
 
 <figure style="flex: 1 1 180px; text-align:center;">
