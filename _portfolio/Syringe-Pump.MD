@@ -67,7 +67,7 @@ gallery:
 </figure>
 
 <figure style="flex: 1 1 180px; text-align:center;">
-  <img src="assets/img/enclosure-side-drawing.png" alt="Enclosure Side Panel" style="width:100%;">
+  <img src="../assets/img/enclosure-side-drawing.png" alt="Enclosure Side Panel" style="width:100%;">
   <figcaption>Enclosure Side Panel</figcaption>
 </figure>
 
