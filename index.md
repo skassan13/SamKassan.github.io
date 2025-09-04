@@ -8,19 +8,16 @@ header:
   actions:
     - label: "My Projects"
       url: "/portfolio/"
-excerpt: "Sam Kassan is a future engineer with a passion for medical technology and product design."
+excerpt: "Sam Kassan is a biomedical engineering student with a passion for medical technology and product design."
 feature_row:
-  - image_path: assets/img/CNC-Mill-Thumbnail.jpg
-    alt: "CNC Mill"
-    title: "Custom CNC Milling Machine"
-    excerpt: "Built for fabricating aluminum and steel parts."
-  - image_path: assets/img/Plasma-Cutter-Banner.jpg
-    alt: "placeholder image 2"
-    title: "DIY Plasma Cutter"
-    excerpt: "A hot plasma stream slices through sheet metal."
-  - image_path: assets/img/Zidex-Thumbnail.jpg
-    title: "Bespoke IDEX 3D Printer"
-    excerpt: "Multimaterial printing. "
+  - image_path: assets/img/Linear-Actuator-Render-Side.PNG
+    alt: "Linear Actuator"
+    title: "Linear Actuator Render"
+    excerpt: "Assembly constructed in Fusion 360 with original and imported components."
+  - image_path: assets/img/phone-case-render-3.jpg
+    alt: "Phone Case"
+    title: "Vanderbilt Phone Case Render"
+    excerpt: "The model was later printed in TPU to fit an iPhone 14."
 ---
 
 {% include feature_row %}
