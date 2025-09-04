@@ -89,3 +89,16 @@ gallery:
 
 </div>
 
+## Parametric Drawings for 3D-Printed Components
+
+{% include gallery 
+   images=[
+     "assets/img/Enclosure.png",
+     "assets/img/enclosure-side-drawing.png",
+     "assets/img/enclosure-top-drawing.png",
+     "assets/img/motor-mount-drawing.png",
+     "assets/img/carriage-drawing.png"
+   ] 
+   caption="Parametric drawings of 3D-printed components" 
+%}
+
