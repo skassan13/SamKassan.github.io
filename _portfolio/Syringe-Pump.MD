@@ -62,7 +62,7 @@ gallery:
 <div style="display:flex; flex-wrap: wrap; gap: 10px; justify-content: space-between;">
 
 <figure style="flex: 1 1 180px; text-align:center;">
-  <img src="assets/img/Enclosure.png" alt="Enclosure Bottom" style="width:100%;">
+  <img src="../assets/img/Enclosure.png" alt="Enclosure Bottom" style="width:100%;">
   <figcaption>Enclosure Bottom</figcaption>
 </figure>
 
