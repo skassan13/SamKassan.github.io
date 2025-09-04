@@ -58,56 +58,35 @@ gallery:
 | Limit Switch                                | Standard                                               | 1        |
 | LED                                         | RGB, common cathode                                    | 1        |
 
-## Parametric Drawings for 3D-Printed Components
-
-## Parametric Drawings for 3D-Printed Components
-
-![Enclosure Bottom](assets/img/Enclosure.png)
-![Enclosure Side Panel](assets/img/enclosure-side-drawing.png)
-![Enclosure Top](assets/img/enclosure-top-drawing.png)
-![Motor Mounting Piece](assets/img/motor-mount-drawing.png)
-![Carriage](assets/img/carriage-drawing.png)
-
 
 <div style="display:flex; flex-wrap: wrap; gap: 10px; justify-content: space-between;">
 
 <figure style="flex: 1 1 180px; text-align:center;">
-  <img src="assets/img/Enclosure.png" alt="Component 1" style="width:100%;">
+  <img src="assets/img/Enclosure.png" alt="Enclosure Bottom" style="width:100%;">
   <figcaption>Enclosure Bottom</figcaption>
 </figure>
 
 <figure style="flex: 1 1 180px; text-align:center;">
-  <img src="assets/img/enclosure-side-drawing.png" alt="Component 2" style="width:100%;">
+  <img src="assets/img/enclosure-side-drawing.png" alt="Enclosure Side Panel" style="width:100%;">
   <figcaption>Enclosure Side Panel</figcaption>
 </figure>
 
 <figure style="flex: 1 1 180px; text-align:center;">
-  <img src="assets/img/enclosure-top-drawing.png" alt="Component 3" style="width:100%;">
+  <img src="assets/img/enclosure-top-drawing.png" alt="Enclosure Top" style="width:100%;">
   <figcaption>Enclosure Top</figcaption>
 </figure>
 
 <figure style="flex: 1 1 180px; text-align:center;">
-  <img src="assets/img/motor-mount-drawing.png" alt="Component 4" style="width:100%;">
+  <img src="assets/img/motor-mount-drawing.png" alt="Motor Mounting Piece" style="width:100%;">
   <figcaption>Motor Mounting Piece</figcaption>
 </figure>
 
 <figure style="flex: 1 1 180px; text-align:center;">
-  <img src="assets/img/carriage-drawing.png" alt="Component 5" style="width:100%;">
+  <img src="assets/img/carriage-drawing.png" alt="Carriage" style="width:100%;">
   <figcaption>Carriage</figcaption>
 </figure>
 
 </div>
 
-## Parametric Drawings for 3D-Printed Components
 
-{% include gallery 
-   images=[
-     "assets/img/Enclosure.png",
-     "assets/img/enclosure-side-drawing.png",
-     "assets/img/enclosure-top-drawing.png",
-     "assets/img/motor-mount-drawing.png",
-     "assets/img/carriage-drawing.png"
-   ] 
-   caption="Parametric drawings of 3D-printed components" 
-%}
 
