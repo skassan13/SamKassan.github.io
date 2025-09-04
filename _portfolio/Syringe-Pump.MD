@@ -23,7 +23,19 @@ gallery:
 
 # CAD Model
 <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH286ddQT78850c0d8a408db1211465ff366?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
-{% include gallery caption="Parametric drawings of original components" %}
+
+
+## 3D-Printed Components
+
+| Component             | Material |
+|-----------------------|----------|
+| Enclosure Bottom      | PLA      |
+| Enclosure Side Panel  | PLA      |
+| Enclosure Top         | PLA      |
+| Motor Mounting Piece  | ABS      |
+| End Support           | ABS      |
+| Carriage              | ABS      |
+| Syringe Support       | ABS      |
 
 
 ## Off-the-Shelf Components
@@ -45,3 +57,35 @@ gallery:
 | Push Button (Momentary, bonus only)         | Panel-mount                                            | 1        |
 | Limit Switch                                | Standard                                               | 1        |
 | LED                                         | RGB, common cathode                                    | 1        |
+
+## Parametric Drawings for 3D-Printed Components
+
+<div style="display:flex; flex-wrap: wrap; gap: 10px; justify-content: space-between;">
+
+<figure style="flex: 1 1 180px; text-align:center;">
+  <img src="assets/img/Enclosure.png" alt="Component 1" style="width:100%;">
+  <figcaption>Enclosure Bottom</figcaption>
+</figure>
+
+<figure style="flex: 1 1 180px; text-align:center;">
+  <img src="assets/img/enclosure-side-drawing.png" alt="Component 2" style="width:100%;">
+  <figcaption>Enclosure Side Panel</figcaption>
+</figure>
+
+<figure style="flex: 1 1 180px; text-align:center;">
+  <img src="assets/img/enclosure-top-drawing.png" alt="Component 3" style="width:100%;">
+  <figcaption>Enclosure Top</figcaption>
+</figure>
+
+<figure style="flex: 1 1 180px; text-align:center;">
+  <img src="assets/img/motor-mount-drawing.png" alt="Component 4" style="width:100%;">
+  <figcaption>Motor Mounting Piece</figcaption>
+</figure>
+
+<figure style="flex: 1 1 180px; text-align:center;">
+  <img src="assets/img/carriage-drawing.png" alt="Component 5" style="width:100%;">
+  <figcaption>Carriage</figcaption>
+</figure>
+
+</div>
+
