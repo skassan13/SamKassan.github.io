@@ -14,7 +14,7 @@ feature_row:
     alt: "Linear Actuator"
     title: "Linear Actuator Render"
     excerpt: "Assembly constructed in Fusion 360 with original and imported components."
-  - image_path: assets/img/phone-case-render-3.jpg
+  - image_path: assets/img/phone-case-render-3.png
     alt: "Phone Case"
     title: "Vanderbilt Phone Case Render"
     excerpt: "The model was later printed in TPU to fit an iPhone 14."
