@@ -64,7 +64,7 @@ gallery2:
 | Limit Switch                                | Standard                                               | 1        |
 | LED                                         | RGB, common cathode                                    | 1        |
 
-{% include gallery id="gallery2" %}
+{% include gallery2 id="gallery" %}
 <div style="display:flex; flex-wrap: wrap; gap: 10px; justify-content: space-between;">
 
 <figure style="flex: 1 1 180px; text-align:center;">
