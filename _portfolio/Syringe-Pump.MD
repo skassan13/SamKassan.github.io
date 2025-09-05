@@ -13,7 +13,7 @@ gallery2:
   - image_path: assets/img/enclosure-top-drawing.png
   - image_path: assets/img/motor-mount-drawing.png
   - image_path: assets/img/carriage-drawing.png
-  - image_path: assets/img/end-support-drawing.png
+  - image_path: assets/img/syringe-support-drawing.png
    
 ---
 
@@ -29,7 +29,7 @@ gallery2:
 
 # CAD Model
 <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH286ddQT78850c0d8a408db1211465ff366?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
-
+{% include gallery id="gallery1" %}
 
 ## 3D-Printed Components
 
@@ -65,34 +65,8 @@ gallery2:
 | LED                                         | RGB, common cathode                                    | 1        |
 
 {% include gallery id="gallery2" %}
-<div style="display:flex; flex-wrap: wrap; gap: 10px; justify-content: space-between;">
 
-<figure style="flex: 1 1 180px; text-align:center;">
-  <img src="../assets/img/Enclosure.png" alt="Enclosure Bottom" style="width:100%;">
-  <figcaption>Enclosure Bottom</figcaption>
-</figure>
 
-<figure style="flex: 1 1 180px; text-align:center;">
-  <img src="../assets/img/enclosure-side-drawing.png" alt="Enclosure Side Panel" style="width:100%;">
-  <figcaption>Enclosure Side Panel</figcaption>
-</figure>
-
-<figure style="flex: 1 1 180px; text-align:center;">
-  <img src="../assets/img/enclosure-top-drawing.png" alt="Enclosure Top" style="width:100%;">
-  <figcaption>Enclosure Top</figcaption>
-</figure>
-
-<figure style="flex: 1 1 180px; text-align:center;">
-  <img src="../assets/img/motor-mount-drawing.png" alt="Motor Mounting Piece" style="width:100%;">
-  <figcaption>Motor Mounting Piece</figcaption>
-</figure>
-
-<figure style="flex: 1 1 180px; text-align:center;">
-  <img src="../assets/img/carriage-drawing.png" alt="Carriage" style="width:100%;">
-  <figcaption>Carriage</figcaption>
-</figure>
-
-</div>
 
 
 
