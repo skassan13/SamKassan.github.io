@@ -4,7 +4,7 @@ excerpt: "DIY Syringe Pump capable of 1 ul/min flow rate up to 10 ml/min."
 header:
   image: assets/img/SyringePump.PNG
   teaser: assets/img/SyringePump.PNG
-gallery:
+gallery1:
   - image_path: assets/img/Circuitry.PNG
   - image_path: assets/img/SyringePump.PNG
 gallery2:
@@ -64,7 +64,7 @@ gallery2:
 | Limit Switch                                | Standard                                               | 1        |
 | LED                                         | RGB, common cathode                                    | 1        |
 
-{% include gallery2 id="gallery" %}
+{% include gallery id="gallery2" %}
 <div style="display:flex; flex-wrap: wrap; gap: 10px; justify-content: space-between;">
 
 <figure style="flex: 1 1 180px; text-align:center;">
