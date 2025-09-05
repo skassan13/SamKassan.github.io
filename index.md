@@ -14,7 +14,7 @@ feature_row:
     alt: "Linear Actuator"
     title: "Linear Actuator"
     excerpt: "Assembly constructed in Fusion 360 with original and imported components."
-  - image_path: assets/img/SyringePump.png
+  - image_path: assets/img/SyringePump.PNG
     alt: "Syringe Pump"
     title: "DIY Syringe Pump"
     excerpt: "Capable of 1 ul/min flow rate up to 10 ml/min."
