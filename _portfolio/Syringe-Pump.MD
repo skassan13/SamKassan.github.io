@@ -72,17 +72,17 @@ gallery:
 </figure>
 
 <figure style="flex: 1 1 180px; text-align:center;">
-  <img src="assets/img/enclosure-top-drawing.png" alt="Enclosure Top" style="width:100%;">
+  <img src="../assets/img/enclosure-top-drawing.png" alt="Enclosure Top" style="width:100%;">
   <figcaption>Enclosure Top</figcaption>
 </figure>
 
 <figure style="flex: 1 1 180px; text-align:center;">
-  <img src="assets/img/motor-mount-drawing.png" alt="Motor Mounting Piece" style="width:100%;">
+  <img src="../assets/img/motor-mount-drawing.png" alt="Motor Mounting Piece" style="width:100%;">
   <figcaption>Motor Mounting Piece</figcaption>
 </figure>
 
 <figure style="flex: 1 1 180px; text-align:center;">
-  <img src="assets/img/carriage-drawing.png" alt="Carriage" style="width:100%;">
+  <img src="../assets/img/carriage-drawing.png" alt="Carriage" style="width:100%;">
   <figcaption>Carriage</figcaption>
 </figure>
 
