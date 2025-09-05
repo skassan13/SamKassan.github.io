@@ -7,7 +7,13 @@ header:
 gallery:
   - image_path: assets/img/Circuitry.PNG
   - image_path: assets/img/SyringePump.PNG
-
+gallery2:
+  - image_path: assets/img/Enclosure.png
+  - image_path: assets/img/enclosure-side-drawing.png
+  - image_path: assets/img/enclosure-top-drawing.png
+  - image_path: assets/img/motor-mount-drawing.png
+  - image_path: assets/img/carriage-drawing.png
+  - image_path: assets/img/end-support-drawing.png
    
 ---
 
@@ -58,7 +64,7 @@ gallery:
 | Limit Switch                                | Standard                                               | 1        |
 | LED                                         | RGB, common cathode                                    | 1        |
 
-
+{% include gallery id="gallery2" %}
 <div style="display:flex; flex-wrap: wrap; gap: 10px; justify-content: space-between;">
 
 <figure style="flex: 1 1 180px; text-align:center;">
