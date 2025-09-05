@@ -12,11 +12,15 @@ excerpt: "Sam Kassan is a biomedical engineering student with a passion for medi
 feature_row:
   - image_path: assets/img/Linear-Actuator-Render-Side.PNG
     alt: "Linear Actuator"
-    title: "Linear Actuator Render"
+    title: "Linear Actuator"
     excerpt: "Assembly constructed in Fusion 360 with original and imported components."
+  - image_path: assets/img/SyringePump.png
+    alt: "Syringe Pump"
+    title: "DIY Syringe Pump"
+    excerpt: "Capable of 1 ul/min flow rate up to 10 ml/min."
   - image_path: assets/img/phone-case-render-3.png
     alt: "Phone Case"
-    title: "Vanderbilt Phone Case Render"
+    title: "Vanderbilt Phone Case"
     excerpt: "The model was later printed in TPU to fit an iPhone 14."
 ---
 
