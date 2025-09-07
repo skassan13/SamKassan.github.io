@@ -7,6 +7,7 @@ header:
 gallery1:
   - image_path: assets/img/Circuitry.PNG
   - image_path: assets/img/SyringePump.PNG
+  - image_path: assets/img/Wiring.PNG
 gallery2:
   - image_path: assets/img/Enclosure.png
   - image_path: assets/img/enclosure-side-drawing.png
