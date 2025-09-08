@@ -24,7 +24,7 @@ gallery2:
 * **Syringe Flexibility:** Compatible with 10–20 mL syringes, which can be loaded and secured without tools. Both ends of the syringe are supported to eliminate sagging during operation, ensuring consistent flow.
 * **Simple Controls:** Intuitive user interface with a latching start/pause button and a built-in limit switch to automatically stop when the syringe is empty.
 * **LED Status Indicator:** Clear visual feedback provided by the LED light: 🟢 green when running, 🟡 yellow when paused, and 🔴 red when the syringe is empty.
-* **Clean & Compact Design:** Electronics and mechanics are combined into a single protected enclosure that shields the power supply, Arduino, and motor driver from users and liquid exposure. Soldered and heat-shrinked connections keep wiring tidy, reliable, and professional.
+* **Clean & Compact Design:** Electronics are combined into a single protected enclosure that shields the power supply, Arduino, and breadboard from users and liquid exposure. Soldered and heat-shrinked connections keep wiring tidy and secure.
 * **User-Friendly Extras:** Two momentary buttons allow manual forward/backward motor control for quick syringe setup, and a potentiometer enables real-time flow rate adjustments.
 
 
