@@ -8,7 +8,7 @@ header:
   actions:
     - label: "My Projects"
       url: "/portfolio/"
-excerpt: "Sam Kassan is a biomedical engineering student with a passion for medical technology and product design."
+excerpt: "Sam Kassan is a Biomedical Engineering student at with a passion for designing and building innovative medical devices. He enjoys combining research, hands-on fabrication, and engineering design to create solutions that improve health and accessibility."
 feature_row:
   - image_path: assets/img/Linear-Actuator-Render-Side.PNG
     alt: "Linear Actuator"
