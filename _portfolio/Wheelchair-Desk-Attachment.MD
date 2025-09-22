@@ -18,7 +18,8 @@ gallery:
 * **Lightweight & Durable:** Made from CO₂ laser-cut MDF, ensuring the desk is lightweight for easy handling while maintaining structural strength and stability.
 * **User-Centered Design:** Tailored specifically for a child with Duchenne’s muscular dystrophy, prioritizing independence, accessibility, and comfort.  
 
-
+# CAD Model
+<iframe src="https://vanderbilt1483.autodesk360.com/shares/public/SH30dd5QT870c25f12fc76ca6e529f094e7d?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
 {% include gallery id="gallery" %}
 
