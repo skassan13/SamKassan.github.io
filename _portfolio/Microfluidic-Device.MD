@@ -11,7 +11,7 @@ gallery:
    
 ---
 
-# Pinched Flow Fractionation in Microfluidic Particle Separation
+# Pinched Flow Fractionation
 Pinch Flow Fractionation (PFF) is a passive microfluidic technique used to separate particles based on size by exploiting laminar flow. In a PFF device, two streams - a particle mixture and a particle-free buffer - merge at a narrow “pinched” segment. The buffer flow squeezes the particle stream against one wall, with the displacement of the particles varying by size: smaller particles are forced closer to the wall. 
 
 As the channel widens downstream, laminar flow lines allows the streams of particles to uniformly diverge. This allows particles of different sizes to be collected through separate outlet channels without the need for external forces such as electric or magnetic fields. The locations of the separated particles are calculable given the particle diameter, the width of the pinched section, and the width of the broad section.
