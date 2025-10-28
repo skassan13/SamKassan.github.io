@@ -18,10 +18,10 @@ feature_row:
     alt: "Syringe Pump"
     title: "DIY Syringe Pump"
     excerpt: "Capable of 1 ul/min flow rate up to 10 ml/min."
-  - image_path: assets/img/phone-case-render-3.png
-    alt: "Phone Case"
-    title: "Vanderbilt Phone Case"
-    excerpt: "The model was later printed in TPU to fit an iPhone 14."
+  - image_path: assets/img/microfluidic-device.PNG
+    alt: "Microfluidic Device"
+    title: "Microfluidic Device"
+    excerpt: "Designed to separate particles between 125-150μm and 425-500μm."
 ---
 
 {% include feature_row %}
