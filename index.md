@@ -10,15 +10,15 @@ header:
       url: "/portfolio/"
 excerpt: "Sam Kassan is a Biomedical Engineering student at with a passion for designing and building innovative medical devices. He enjoys combining research, hands-on fabrication, and engineering design to create solutions that improve health and accessibility."
 feature_row:
-  - image_path: assets/img/Linear-Actuator-Render-Side.PNG
-    alt: "Linear Actuator"
-    title: "Linear Actuator"
-    excerpt: "Assembly constructed in Fusion 360 with original and imported components."
+  - image_path: assets/img/microfluidic-device.PNG
+    alt: "Microfluidic Device"
+    title: "Microfluidic Device"
+    excerpt: "Designed to separate particles between 125-150μm and 425-500μm."
   - image_path: assets/img/SyringePump.PNG
     alt: "Syringe Pump"
     title: "DIY Syringe Pump"
     excerpt: "Capable of 1 ul/min flow rate up to 10 ml/min."
-  - image_path: assets/img/microfluidic-device.PNG
+  - image_path: assets/img/phonecase.png
     alt: "Microfluidic Device"
     title: "Microfluidic Device"
     excerpt: "Designed to separate particles between 125-150μm and 425-500μm."
