@@ -2,11 +2,11 @@
 title: "Microfluidic Device"
 excerpt: "50x75mm PDMS device designed to separate particles of different sizes."
 header:
-  image: assets/img/uFluidicDevice.PNG
-  teaser: assets/img/uFluidicMold.PNG
+  image: assets/img/microfluidic-device.PNG
+  teaser: assets/img/microfluidic-mold.PNG
 gallery:
-  - image_path: assets/img/uFLuidicDevice.PNG
-  - image_path: assets/img/uFluidicMold.PNG
+  - image_path: assets/img/microfluidic-device.PNG
+  - image_path: assets/img/microfluidic-mold.PNG
 
    
 ---
