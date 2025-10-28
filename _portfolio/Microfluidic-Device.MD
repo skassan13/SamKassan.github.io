@@ -37,9 +37,5 @@ The outlets feed the streams into barbs with plastic tubing, creating a high var
 
 # Sources:
 
-Here is the full citation for the article:
-
-Ashrafizadeh, S. N., Zare, M., Khatibi, M., & Ashrafizadeh, S. N. (2025). *A Comprehensive Review of Pinch Flow Fractionation in Microfluidics: From Principles to Practical Applications.* *Chemical Engineering and Processing – Process Intensification*, 208, 110087. [https://doi.org/10.1016/j.cep.2024.110087](https://doi.org/10.1016/j.cep.2024.110087) ([CoLab][1])
-
-[1]: https://colab.ws/articles/10.1016%2Fj.cep.2024.110087?utm_source=chatgpt.com "A Comprehensive Review of Pinch Flow Fractionation in Microfluidics: From Principles to Practical Applications | CoLab"
+Ashrafizadeh, S. N., Zare, M., Khatibi, M., & Ashrafizadeh, S. N. (2025). *A Comprehensive Review of Pinch Flow Fractionation in Microfluidics: From Principles to Practical Applications.* *Chemical Engineering and Processing – Process Intensification*, 208, 110087. [https://doi.org/10.1016/j.cep.2024.110087](https://doi.org/10.1016/j.cep.2024.110087) 
 
