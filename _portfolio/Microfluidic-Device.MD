@@ -25,7 +25,7 @@ PFF is valued for its simplicity, continuous operation, and high throughput, mak
 * **Device Geometry:** The buffer outlet receives 62.5% of the liquid, with the rest split evenly between the two other outlets. Thus, serpentine paths were added that give 3.33x higher resistance to the particle receiving outlets, providing proportional resistance in order to ensure a proper flow distribution.
 * **Parylene Coating and PDMS Casting:** Before the PDMS cast is created, a parylene coating is added to the resin mold. This prevents uncured resin monomers from leaching out of the mold and interfering with the PDMS crosslinking process.
 
-#Limitations and Future Directions
+# Limitations and Future Directions
 The outlets feed the streams into barbs with plastic tubing, creating a high variable resistance that changes with the positioning of the tubes. High on-chip resistance was added to each path in order to counteract the downstream effects. Future designs could design a device to hold the tubes in the same position, mitigating the issue.
 
 
