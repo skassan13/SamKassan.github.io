@@ -11,14 +11,35 @@ gallery:
    
 ---
 
-# Features
+# Pinched Flow Fractionation in Microfluidic Particle Separation
+Pinch Flow Fractionation (PFF) is a passive microfluidic technique used to separate particles based on size by exploiting laminar flow and hydrodynamic focusing. In a PFF device, two streams - a particle mixture and a particle-free buffer - merge at a narrow “pinched” segment. The buffer flow squeezes the particle stream against one wall, with the displacement of the particles varying by size: smaller particles are forced closer to the wall. 
 
-*  **Removable Clamp Design:** Securely clamps onto the wheelchair armrest and can be attached or removed without tools, making setup quick and simple for both the user and caregivers.
-* **Swing-Up Functionality:** Pivots upward to fold neatly over the armrest, creating a stable, flat surface for writing, drawing, or other creative activities. When not in use, the desk swings downward to stay out of the way, allowing the wheelchair to be used normally without obstruction.
-* **Lightweight & Durable:** Made from CO₂ laser-cut MDF, ensuring the desk is lightweight for easy handling while maintaining structural strength and stability.
-* **User-Centered Design:** Tailored specifically for a child with Duchenne’s muscular dystrophy, prioritizing independence, accessibility, and comfort.  
+As the channel widens downstream, laminar flow lines allows the streams of particles to uniformly diverge. This allows particles of different sizes to be collected through separate outlet channels without the need for external forces such as electric or magnetic fields. The locations of the separated particles are calculable given the particle diameter, the width of the pinched section, and the width of the broad section.
+
+PFF is valued for its simplicity, continuous operation, and high throughput, making it useful in applications such as cell sorting and blood plasma separation (Ashrafizadeh et al., 2025).
+
+# Device Design
+
+*  **Resin printed mold:** A negative mold of the device was constructed in Fusion360 and printed in clear resin using the Formlabs Form 4 SLA printer.
+* **Outlet locations:** The device has 3 outlets - one for the buffer, one for the large particles (425-500μm), and one for the small particles (125-150μm). The spacing of the outlets was determined using the PFF algebraic relationship between device size and particle diameter.
+* **Device Geometry:** The buffer outlet receives 62.5% of the liquid, with the rest split evenly between the two other outlets. Thus, serpentine paths were added that give 3.33x higher resistance to the particle receiving outlets, providing proportional resistance in order to ensure a proper flow distribution.
+* **Parylene Coating and PDMS Casting:** Before the PDMS cast is created, a parylene coating is added to the resin mold. This prevents uncured resin monomers from leaching out of the mold and interfering with the PDMS crosslinking process.
+
+#Limitation and Future Directions
+The outlets feed the streams into barbs with plastic tubing, creating a high variable resistance that changes with the positioning of the tubes. High on-chip resistance was added to each path in order to counteract the downstream effects. However, with the tubing present during the testing of the device, full functionality was not achieved. Future designs could seek to increase on-chip resistance further - therefore eliminating the tubing issue - by implementing serpentine paths on each path. Designing a device to keep the tubes in the same position could assist as well.
+
 
 # CAD Model
 <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH90d2dQT28d5b602811f2a72c55785eb70f?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
 {% include gallery id="gallery" %}
+
+
+# Sources:
+
+Here is the full citation for the article:
+
+Ashrafizadeh, S. N., Zare, M., Khatibi, M., & Ashrafizadeh, S. N. (2025). *A Comprehensive Review of Pinch Flow Fractionation in Microfluidics: From Principles to Practical Applications.* *Chemical Engineering and Processing – Process Intensification*, 208, 110087. [https://doi.org/10.1016/j.cep.2024.110087](https://doi.org/10.1016/j.cep.2024.110087) ([CoLab][1])
+
+[1]: https://colab.ws/articles/10.1016%2Fj.cep.2024.110087?utm_source=chatgpt.com "A Comprehensive Review of Pinch Flow Fractionation in Microfluidics: From Principles to Practical Applications | CoLab"
+
