@@ -1,6 +1,6 @@
 ---
 title: "Multi-Material Pliers"
-excerpt: "PLA pieces connected by elastic TPU region."
+excerpt: "Print-in-place FDM pliers made of PLA and TPU."
 header:
   image: assets/img/Pliers.PNG
   teaser: assets/img/Pliers.PNG
