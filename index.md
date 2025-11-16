@@ -18,9 +18,9 @@ feature_row:
     alt: "Syringe Pump"
     title: "DIY Syringe Pump"
     excerpt: "Capable of 1 ul/min flow rate up to 10 ml/min."
-  - image_path: assets/img/phone-case-render-3.png
-    alt: "Phone Case"
-    title: "Vanderbilt Phone Case"
+  - image_path: assets/img/Pliers.PNG
+    alt: "Pliers"
+    title: "Multi-material Pliers"
     excerpt: "The model was later printed in TPU to fit an iPhone 14."
 ---
 
