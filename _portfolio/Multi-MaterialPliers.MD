@@ -1,9 +1,9 @@
 ---
-title: "Multi-Material Pliers"
+title: "Multi-material Pliers"
 excerpt: "Print-in-place FDM pliers made of PLA and TPU."
 header:
-  image: assets/img/Pliers.PNG
-  teaser: assets/img/Pliers.PNG
+  image: assets/img/PliersHor.PNG
+  teaser: assets/img/PliersHor.PNG
 gallery:
   - image_path: assets/img/PencilPickup.GIF
   - image_path: assets/img/PliersClosing.GIF
