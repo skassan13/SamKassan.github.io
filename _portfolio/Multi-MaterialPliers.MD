@@ -1,11 +1,11 @@
 ---
 title: "Multi-Material Pliers"
-excerpt: "PLA pieces connected by elastic TPU region allows."
+excerpt: "PLA pieces connected by elastic TPU region."
 header:
-  image: assets/img/microfluidic-device.PNG
-  teaser: assets/img/microfluidic-mold.PNG
+  image: assets/img/Pliers.PNG
+  teaser: assets/img/Pliers.PNG
 gallery:
-  - image_path: assets/img/microfluidic-device.PNG
+  - image_path: assets/img/PliersClosed.PNG
   - image_path: assets/img/microfluidic-mold.PNG
 
    
