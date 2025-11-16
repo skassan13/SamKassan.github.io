@@ -8,7 +8,7 @@ header:
   actions:
     - label: "My Projects"
       url: "/portfolio/"
-excerpt: "Sam Kassan is a Biomedical Engineering student at with a passion for designing and building innovative medical devices. He enjoys combining research, hands-on fabrication, and engineering design to create solutions that improve health and accessibility."
+excerpt: "Sam Kassan is a Biomedical Engineering student at Vanderbilt University with a passion for designing and building innovative medical devices. He enjoys combining research, hands-on fabrication, and engineering design to create solutions that improve health and accessibility."
 feature_row:
   - image_path: assets/img/microfluidic-device.PNG
     alt: "Microfluidic Device"
