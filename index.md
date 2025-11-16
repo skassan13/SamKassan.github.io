@@ -21,7 +21,7 @@ feature_row:
   - image_path: assets/img/Pliers.PNG
     alt: "Pliers"
     title: "Multi-material Pliers"
-    excerpt: "The model was later printed in TPU to fit an iPhone 14."
+    excerpt: "Print-in-place FDM pliers made of PLA and TPU."
 ---
 
 {% include feature_row %}
