@@ -1,3 +1,4 @@
+---
 title: "Bike Phone Mount"
 excerpt: "Phone holder for bikes designed using top down modeling."
 header:
@@ -6,7 +7,6 @@ header:
 gallery1:
   - image_path: assets/img/PhoneHoldHor.png
   - image_path: assets/img/PhoneHoldVert.png
-   
 ---
 
 # Top Down Modeling
