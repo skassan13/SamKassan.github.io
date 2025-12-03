@@ -5,7 +5,7 @@ header:
   image: assets/img/BikeMountVert.png
   teaser: assets/img/BikeMountVert.png
 gallery1:
-  - image_path: assets/img/PhoneHoldHor.png
+  - image_path: assets/img/PhoneHoldHor2.png
   - image_path: assets/img/PhoneHoldVert.png
   - image_path: assets/img/PhoneHolder.GIF
 gallery2:
