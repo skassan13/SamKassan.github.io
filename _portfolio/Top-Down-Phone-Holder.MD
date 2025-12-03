@@ -7,6 +7,13 @@ header:
 gallery1:
   - image_path: assets/img/PhoneHoldHor.png
   - image_path: assets/img/PhoneHoldVert.png
+gallery2:
+  - image_path: assets/img/Enclosure.png
+  - image_path: assets/img/enclosure-side-drawing.png
+  - image_path: assets/img/enclosure-top-drawing.png
+  - image_path: assets/img/motor-mount-drawing.png
+  - image_path: assets/img/carriage-drawing.png
+  - image_path: assets/img/syringe-support-drawing.png
 ---
 
 # Top Down Modeling
