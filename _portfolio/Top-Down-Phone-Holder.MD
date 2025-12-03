@@ -11,7 +11,7 @@ gallery1:
 gallery2:
   - image_path: assets/img/PhoneRender2.png
   - image_path: assets/img/ClampRender.png
-  - image_path: assets/img/Mechanism.png
+  - image_path: assets/img/Detent.png
   - image_path: assets/img/Swivel.png
   - image_path: assets/img/DetentFull.png
   - image_path: assets/img/PhoneSlot.png
