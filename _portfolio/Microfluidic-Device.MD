@@ -29,7 +29,7 @@ PFF is valued for its simplicity, continuous operation, and high throughput, mak
 The outlets feed the streams into barbs with plastic tubing, creating a high variable resistance that changes with the positioning of the tubes. High on-chip resistance was added to each path in order to counteract the downstream effects. Future designs could design a device to hold the tubes in the same position, mitigating the issue.
 
 
-# CAD Model
+# CAD Model - Negative Mold
 <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH90d2dQT28d5b602811f2a72c55785eb70f?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
 {% include gallery id="gallery" %}
