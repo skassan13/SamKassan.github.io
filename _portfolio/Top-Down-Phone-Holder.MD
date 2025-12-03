@@ -9,7 +9,7 @@ gallery1:
   - image_path: assets/img/PhoneHoldVert.png
   - image_path: assets/img/PhoneHolder.GIF
 gallery2:
-  - image_path: assets/img/PhoneHolderRender.png
+  - image_path: assets/img/PhoneRender2.png
   - image_path: assets/img/Detent.png
 ---
 
