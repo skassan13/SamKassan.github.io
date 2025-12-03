@@ -34,11 +34,12 @@ Instead of using a single spring-loaded ball bearing for the detent, the design 
 
 M3 and M5 heat set inserts were added to attach the components. The clamp requires two M5 screws - one on each side - to secure the mount to the handlebar. While an allen wrench is required for initial assembly and attachment of the phone mount, no tools are required for placement, rotation, or removal of the phone.
 
-
+{% include gallery id="gallery1" %}
 
 # CAD Model
 <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH90d2dQT28d5b602811553ac4e0d2a931ca?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
-{% include gallery id="gallery1" %}
+
+{% include gallery id="gallery2" %}
 
 
 
