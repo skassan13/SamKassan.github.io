@@ -5,7 +5,7 @@ header:
   image: assets/img/FrontHangerCrop.png
   teaser: assets/img/HangerCrop.png
 gallery1:
-  - image_path: assets/img/SKHanger.PNG
+  - image_path: assets/img/SKhanger.PNG
   - image_path: assets/img/TopHanger.PNG
   - image_path: assets/img/SideHanger.PNG
   - image_path: assets/img/Hanger.PNG
