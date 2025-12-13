@@ -2,8 +2,8 @@
 title: "Generative Design SLS Truck Hanger"
 excerpt: "SLS electric longboard truck hanger and motor mount using generative design."
 header:
-  image: assets/img/FrontHangerCrop.PNG
-  teaser: assets/img/HangerCrop.PNG
+  image: assets/img/FrontHangerCrop.png
+  teaser: assets/img/HangerCrop.png
 gallery1:
   - image_path: assets/img/SKHanger.PNG
   - image_path: assets/img/TopHanger.PNG
