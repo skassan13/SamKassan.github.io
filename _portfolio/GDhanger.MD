@@ -12,7 +12,8 @@ gallery1:
   - image_path: assets/img/FrontHanger.PNG
   - image_path: assets/img/Hanger.GIF
 gallery2:
-  - image_path: assets/img/PhoneRender2.png
+  - image_path: assets/img/HangerRender.png
+  - image_path: assets/img/HangerRenderSK.png
 
 
 ---
@@ -32,7 +33,7 @@ gallery2:
 {% include gallery id="gallery1" %}
 
 # CAD Model
-<iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH90d2dQT28d5b602811553ac4e0d2a931ca?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
+<iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH90d2dQT28d5b602811a1743f3bc3bfcbac?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
 
 # CAD Component Renders
