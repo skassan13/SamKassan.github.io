@@ -32,9 +32,9 @@ gallery2:
 
 {% include gallery id="gallery1" %}
 
-# CAD Model
+# Aluminum CAD Model
 <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH90d2dQT28d5b602811a1743f3bc3bfcbac?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
 
-# CAD Component Renders
+# Aluminum CAD Renders
 {% include gallery id="gallery2" %}
