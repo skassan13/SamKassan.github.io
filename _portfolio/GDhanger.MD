@@ -65,3 +65,6 @@ By creating outcomes using both aluminum and nylon (Nylon12), you can see how th
 
 ## Nylon CAD Renders
 {% include gallery id="gallery3" %}
+
+## Sources
+Miller, Heather. “Exploring a New Fuel-Efficiency Solution with Generative Design.” Fusion Blog, Autodesk, 19 Mar. 2024, www.autodesk.com/products/fusion-360/blog/metal-3d-printed-turbine-center-generative-design-extension/.
