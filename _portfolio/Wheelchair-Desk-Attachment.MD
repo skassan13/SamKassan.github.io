@@ -23,3 +23,6 @@ gallery:
 
 {% include gallery id="gallery" %}
 
+##Sources
+* Miller, Heather. “Exploring a New Fuel-Efficiency Solution with Generative Design.” Fusion Blog, Autodesk, 19 Mar. 2024, www.autodesk.com/products/fusion-360/blog/metal-3d-printed-turbine-center-generative-design-extension/. 
+
