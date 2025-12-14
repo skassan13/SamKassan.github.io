@@ -18,7 +18,7 @@ gallery2:
 
 ---
 
-# Top Down Modeling
+## Top Down Modeling
 
 Top-down modeling is a CAD design strategy in which the overall system layout and critical reference geometry are created first, and individual components are then designed in context around those references. Rather than modeling parts independently and assembling them afterward, top-down modeling uses shared geometry, projected sketches, and in-place features so that all components fit together precisely and update predictably when changes occur. This approach is especially effective for multi-component mechanisms where clearances, alignment, and interfacing surfaces must remain tightly controlled.
 
@@ -26,7 +26,7 @@ In this project, top-down modeling is the foundation for designing a functional 
 
 Overall, top-down modeling enables a more controlled, adaptable, and assembly-aware design process. By using shared reference geometry and in-context features, I designed a multi-part, functional phone holder that rotates smoothly, snaps into place, and mounts securely to the handlebars.
 
-# Bike Phone Mount Design
+## Bike Phone Mount Design
 
 The clamp and detent mechanism were printed in PLA because these parts require rigidity and dimensional stability. Using PLA kept the rotation mechanism consistent and prevented deformation that could weaken the detents over time. 
 
@@ -38,11 +38,11 @@ M3 and M5 heat set inserts were added to attach the components. The clamp requir
 
 {% include gallery id="gallery1" %}
 
-# CAD Model
+## CAD Model
 <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH90d2dQT28d5b602811553ac4e0d2a931ca?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
 
-# CAD Component Renders
+## CAD Component Renders
 {% include gallery id="gallery2" %}
 
 
