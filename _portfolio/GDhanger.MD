@@ -22,7 +22,7 @@ gallery3:
 
 ---
 
-# Generative Design and Powder Bed Fusion
+## Generative Design and Powder Bed Fusion
 
 Powder bed fusion (PBF) and generative design form a uniquely complementary pairing: PBF gives manufacturers freedom to produce organic, highly optimized geometries that would be impossible with conventional subtractive or casting methods, while generative design provides the computational framework to discover those geometries in the first place. 
 
@@ -41,7 +41,7 @@ Generative design is extremely useful for discovering non-intuitive load paths t
 In short, powder bed fusion and generative design are powerful technological tools for reducing part count and mass, but its success depends on proper load definition, appropriate constraints, and design objectives. With the market value of PBF expected to exceed $3 billion in 2025, we will likely be seeing much more of this combination in years to come. 
 
 
-# Longboard Truck Hanger Design
+## Longboard Truck Hanger Design
 
 In this project, I used generative design and PBF to create a truck hanger and motor mount for an electric longboard. In setting up the truck hanger, I selected a single fixed structural constraint on the middle kingpin through-hole to represent the part’s attachment to the deck. That placement is physically reasonable because the kingpin/pivot region is where the hanger is clamped to the assembly, and fixing it forces the computer to carry applied forces through the hanger to that connection. 
 
@@ -52,16 +52,16 @@ By creating outcomes using both aluminum and nylon (Nylon12), you can see how th
 {% include gallery id="gallery1" %}
 
 
-# Aluminum CAD Model
+## Aluminum CAD Model
 <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH90d2dQT28d5b602811a1743f3bc3bfcbac?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
 
-# Aluminum CAD Renders
+## Aluminum CAD Renders
 {% include gallery id="gallery2" %}
 
 
-# Nylon CAD Model
+## Nylon CAD Model
 <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH90d2dQT28d5b6028111caa82bc4c423970?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
-# Nylon CAD Renders
+## Nylon CAD Renders
 {% include gallery id="gallery3" %}
