@@ -18,7 +18,7 @@ gallery2:
    
 ---
 
-# Features
+## Features
 
 * **Precision Drive:** Powered by a stepper motor coupled to a lead screw, the pump delivers highly accurate and repeatable motion. Flow rate is fully programmable in the Arduino code with a single variable.
 * **Syringe Flexibility:** Compatible with 10–20 mL syringes, which can be loaded and secured without tools. Both ends of the syringe are supported to eliminate sagging during operation, ensuring consistent flow.
@@ -28,7 +28,7 @@ gallery2:
 * **User-Friendly Extras:** Two momentary buttons allow manual forward/backward motor control for quick syringe setup, and a potentiometer enables real-time flow rate adjustments.
 
 
-# CAD Model
+## CAD Model
 <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH286ddQT78850c0d8a408db1211465ff366?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 {% include gallery id="gallery1" %}
 
