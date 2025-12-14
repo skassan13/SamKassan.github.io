@@ -14,6 +14,10 @@ gallery1:
 gallery2:
   - image_path: assets/img/HangerRender.png
   - image_path: assets/img/HangerRenderSK.png
+gallery3:
+  - image_path: assets/img/NylonFrontRender.png
+  - image_path: assets/img/NylonSideRender.png
+
 
 
 ---
@@ -30,24 +34,23 @@ In practice, the combination of the two technologies has several benefits increa
 
 This combination has found particular success in the automotive and aerospace industries. Recently, engineers from several aerospace companies and universities across the world collaborated to create a lightweight turbine center frame for a large-scale aircraft engine. Commercial aviation is the cause of 2.4% of global carbon emissions, so there has been a strong global push to increase the sustainability of air travel and shipping. Decreasing the weight of the aircraft would increase fuel efficiency and reduce emissions. Using generative design and PBF, the group was able to reduce the 100+ part assembly into one piece, reducing the mass by 30% in the process. 
 
-
-
-# Longboard Truck Hanger Design
-
 While the specific object shape is created by the computer, generative design is just as dependent on the user as manual CAD modeling. Generative algorithms only know what you tell them - loads, constraints, preservation regions, obstacle regions, manufacturing limits, and objectives. If those inputs are incomplete or unrealistic, the optimized geometry will look great on-screen and fail in the real world. 
-
-In this project, I used generative design and PBF to create a truck hanger and motor mount for an electric longboard. In setting up the truck hanger, I selected a single fixed structural constraint on the middle kingpin through-hole to represent the part’s attachment to the deck. That placement is physically reasonable because the kingpin/pivot region is where the hanger is clamped to the assembly, and fixing it forces the computer to carry applied forces through the hanger to that connection. 
-
-To decide which forces to apply, I used a combination of mechanics and expected scenarios: static vertical load from rider weight (split between trucks), lateral shear for turning, longitudinal shear for braking, weight of the motor creating a moment against the motor mounting plate, the tension of the belt pulling against the plate, and a moment from the motor’s torque. I placed the vertical, lateral and longitudinal forces at the wheel/axle interfaces because that is where the tire transmits load into the hanger. I added a torsional moment about the pivot to ensure the kingpin region carries realistic twist. I ran separate load-cases to ensure the optimizer met all requirements. 
-
-By creating outcomes using both aluminum and nylon (Nylon12), you can see how the mechanical properties of the material selection impact the generative design process. Aluminum’s stronger mechanical properties result in a lighter, sleeker model with thin trusses and wide gaps between sections, while the nylon model is almost completely filled out. If the aluminum model was printed out of nylon and attached to the board, it would not be able to withstand the applied forces and would break. 
 
 Generative design is extremely useful for discovering non-intuitive load paths that reduce mass while preserving stiffness. It shines in applications where it is unrestricted by traditional manufacturing constraints - this is where the coupling with PBF merges seamlessly. It has found success in the design of aerospace and automotive components, including heat exchangers, engine mounts, and brake calipers. Drawbacks include dependence on accurate loading and boundary conditions and significant computational demands. Additionally, being handcuffed to PBF has its own drawbacks - limited control over surface finish, internal defects in PBF parts, and high manufacturing costs, as PBF is an expensive process. Even if using PBF to print a generative design component decreases weight and increases strength, it may not be financially feasible. 
 
 In short, powder bed fusion and generative design are powerful technological tools for reducing part count and mass, but its success depends on proper load definition, appropriate constraints, and design objectives. With the market value of PBF expected to exceed $3 billion in 2025, we will likely be seeing much more of this combination in years to come. 
 
 
+# Longboard Truck Hanger Design
+
+In this project, I used generative design and PBF to create a truck hanger and motor mount for an electric longboard. In setting up the truck hanger, I selected a single fixed structural constraint on the middle kingpin through-hole to represent the part’s attachment to the deck. That placement is physically reasonable because the kingpin/pivot region is where the hanger is clamped to the assembly, and fixing it forces the computer to carry applied forces through the hanger to that connection. 
+
+To decide which forces to apply, I used a combination of mechanics and expected scenarios: static vertical load from rider weight (split between trucks), lateral shear for turning, longitudinal shear for braking, weight of the motor creating a moment against the motor mounting plate, the tension of the belt pulling against the plate, and a moment from the motor’s torque. I placed the vertical, lateral and longitudinal forces at the wheel/axle interfaces because that is where the tire transmits load into the hanger. I added a torsional moment about the pivot to ensure the kingpin region carries realistic twist. I ran separate load-cases to ensure the optimizer met all requirements. 
+
+By creating outcomes using both aluminum and nylon (Nylon12), you can see how the mechanical properties of the material selection impact the generative design process. Aluminum’s stronger mechanical properties result in a lighter, sleeker model with thin trusses and wide gaps between sections, while the nylon model is much bulkier, with fewer gaps and the available space almost completely filled out. If the aluminum model was printed out of nylon and attached to the board, it would not be able to withstand the applied forces and would break. Due to the cost of both metal and polymer SLS printing, I could not print both models out of their intended materials. The aluminum model was printed out of nylon for visualization, not intended for functional use.
+
 {% include gallery id="gallery1" %}
+
 
 # Aluminum CAD Model
 <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH90d2dQT28d5b602811a1743f3bc3bfcbac?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
@@ -55,3 +58,10 @@ In short, powder bed fusion and generative design are powerful technological too
 
 # Aluminum CAD Renders
 {% include gallery id="gallery2" %}
+
+
+# Nylon CAD Model
+<iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH90d2dQT28d5b6028111caa82bc4c423970?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
+
+# Nylon CAD Renders
+{% include gallery id="gallery3" %}
