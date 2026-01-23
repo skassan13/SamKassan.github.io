@@ -23,6 +23,7 @@ Sam has a diverse technical foundation spanning engineering design, digital fabr
 * Stereolithography (SLA)
 * Selective Laser Sintering
 * Laser Cutting
+* Generative Design
 * MATLAB
 
 
