@@ -10,6 +10,10 @@ header:
       url: "/portfolio/"
 excerpt: "Sam Kassan is a Biomedical Engineering student at Vanderbilt University with a passion for designing and building innovative medical devices. He enjoys combining research, hands-on fabrication, and engineering design to create solutions that improve health and accessibility."
 feature_row:
+  - image_path: assets/img/HangerRender.png
+    alt: "SLS Truck Hanger"
+    title: "Generative Design Truck Hanger"
+    excerpt: "Electric longboard truck hanger and motor mount"
   - image_path: assets/img/microfluidic-device.PNG
     alt: "Microfluidic Device"
     title: "Microfluidic Device"
@@ -18,10 +22,6 @@ feature_row:
     alt: "Syringe Pump"
     title: "DIY Syringe Pump"
     excerpt: "Capable of 1 ul/min flow rate up to 10 ml/min."
-  - image_path: assets/img/PliersHor.PNG
-    alt: "Pliers"
-    title: "Multi-material Pliers"
-    excerpt: "Print-in-place FDM pliers made of PLA and TPU."
 ---
 
 {% include feature_row %}
