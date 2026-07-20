@@ -6,11 +6,12 @@ title: "About Sam Kassan"
 
 ## Education
 
-Sam is currently in his third year at Vanderbilt University, where he is pursuing a degree in Biomedical Engineering with a minor in Digital Fabrication.
+Sam is currently a rising senior at Vanderbilt University, where he is pursuing a degree in Biomedical Engineering with a minor in Digital Fabrication.
 
 ## Experiences
 
-* **VP, Vanderbilt Neurotech** – Leading the development of a BCI-controlled assistive feeding arm.
+* **Engineering Design Intern, 3D Design and Innovation Lab at Northwell Health (June 2026-Present)** - Leading the design and prototyping of various medical devices in collaboration with doctors at the North Shore University Hospital.
+* **VP, Vanderbilt Neurotech (Nov 2024-Nov 2025)** – Led the mechanical design team and administrative efforts for the development of an EEG-controlled assistive feeding robotic arm.
 * **Research Intern, NYU Musculoskeletal Research Center (May–Aug 2025)** – Studied the effects of a hyaluronan-binding peptide on inflammation, performing RNA extraction, cDNA synthesis, and qPCR analysis to assess macrophage polarization.
 * **Research Intern, NYU Langone South Shore Neurologic Associates (June–Aug 2024)** – Organized electronic medical records and analyzed data on Alzheimer’s and Parkinson’s disease treatments, contributing to publications on patient outcomes and disease progression. 
 
