@@ -13,7 +13,7 @@ feature_row:
   - image_path: assets/img/HangerRender.png
     alt: "SLS Truck Hanger"
     title: "Generative Design Truck Hanger"
-    excerpt: "Electric longboard truck hanger and motor mount"
+    excerpt: "Electric longboard truck hanger and motor mount."
   - image_path: assets/img/microfluidic-device.PNG
     alt: "Microfluidic Device"
     title: "Microfluidic Device"
