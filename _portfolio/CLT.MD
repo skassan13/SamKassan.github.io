@@ -1,5 +1,5 @@
 ---
-title: "Central Line Placement Training Model"
+title: "Central Line Placement Trainer"
 excerpt: "Surgical training model for the central line placement procedure."
 header:
   image: assets/img/CLTWhole.png
@@ -14,33 +14,43 @@ gallery2:
 
 
 ---
+*Designed in collaboration with Dr. Felix Rozenberg (Internal Medicine, North Shore University Hospital)*
 
-## Generative Design and Powder Bed Fusion
+## The Problem
+Central line placement is a common but high-risk procedure, and hospitals rely on physical training models to let residents and physicians practice the technique under realistic conditions before performing it on patients. The lab's existing trainer, however, had two significant drawbacks. First, the model was built around a full head bust, making it bulky and impractical to store, transport, or use in a typical training session. Second, and more critically, the mold used to cast the ballistic gel neck piece relied on lengths of tubing threaded through the gel to form the jugular vein and carotid artery canals. Once the gel was cast around the tubing, the tubing itself became a permanent, non-reusable part of the model - meaning every single training session consumed an entirely new set of tubing. This made the trainer repetitive to fabricate, time-consuming to prepare, and wasteful in both material and lab time.
 
-Powder bed fusion (PBF) and generative design form a uniquely complementary pairing: PBF gives manufacturers freedom to produce organic, highly optimized geometries that would be impossible with conventional subtractive or casting methods, while generative design provides the computational framework to discover those geometries in the first place. 
+Dr. Rozenberg tasked me with redesigning the trainer to solve both problems: shrink the physical footprint of the model, and eliminate the need to sacrifice a new set of tubing for every use.
 
-PBF is an additive manufacturing method with a market value of over $3 billion as of 2025. A laser or electron beam selectively fuses regions of a powder bed to build parts layer by layer. This enables the fabrication of highly complex, lightweight objects with fine feature resolution and strong mechanical properties. PBF can print both polymers and metals, giving it a wide range of applications.  
+The previous trainer that this design is based on can be found here: https://www.aliem.com/idea-series-ultrasound-capable-3d-printed-central-line-trainer/
 
-Generative design is a novel design approach in which the engineer defines design objectives, constraints, loads, materials, and manufacturing methods, and the software generates optimized structures that satisfy those requirements. Rather than manually shaping parts, designers evaluate and refine computer-generated solutions that often feature organic shapes and reduced volume. 
+## Design Goals & Constraints
+Going into the redesign, I set two primary goals:
 
-In practice, the combination of the two technologies has several benefits increases efficiency and reduced manufacturing costs due to the lightweight part designs. Additionally, multi-part assemblies can be consolidated into singular pieces (component interfaces are common sources of failure).  
+* **Reduce the size** of the entire trainer system - both the outer head/neck bust and the internal gel piece - to make it more practical for repeated clinical training use.
+* **Create hollow, reusable canals** within the gel piece to replicate the jugular vein and carotid artery, without needing to sacrifice tubing on every use.
 
-This combination has found particular success in the automotive and aerospace industries. Recently, engineers from several aerospace companies and universities across the world collaborated to create a lightweight turbine center frame for a large-scale aircraft engine. Commercial aviation is the cause of 2.4% of global carbon emissions, so there has been a strong global push to increase the sustainability of air travel and shipping. Decreasing the weight of the aircraft would increase fuel efficiency and reduce emissions. Using generative design and PBF, the group was able to reduce the 100+ part assembly into one piece, reducing the mass by 30% in the process. 
+Achieving these goals meant working around several fabrication constraints:
 
-While the specific object shape is created by the computer, generative design is just as dependent on the user as manual CAD modeling. Generative algorithms only know what you tell them - loads, constraints, preservation regions, obstacle regions, manufacturing limits, and objectives. If those inputs are incomplete or unrealistic, the optimized geometry will look great on-screen and fail in the real world. 
+* **FDM printing wasn't viable for the mold.** Our FDM material of choice, PA-CF, is porous enough that air can pass through the printed layers. Since the trainer needs to be ultrasound-compatible (so trainees can practice using ultrasound guidance, just as they would in a real procedure), any air trapped in or passing through the mold walls would create bubbles that prevent proper ultrasound visualization. This ruled out FDM for the mold itself and pushed me toward resin printing, which produces watertight, air-impermeable parts.
+* **Printer limitations added tolerance challenges.** At the time, our Form 2 printer was the only machine in the lab capable of printing in high-temperature resin, but it has noticeably lower speed and dimensional accuracy than the newer Form 4 printers. That meant every mold feature - particularly anything with tight tolerances, like threads - had to be designed with wider tolerances.
+* **High-temp resin is brittle.** While necessary for mold durability under repeated use, high-temp resin chips easily under stress. Early testing showed that standard metric threads sheared off when torque was applied, which meant conventional threaded connections weren't a reliable option for any load-bearing or frequently-removed part of the mold.
+* **I needed an entirely new mechanism to form the canals.** Since tubing-in-gel was the source of the waste problem, the core design challenge was inventing a way to create hollow canals in the cast gel that didn't rely on a sacrificial part.
 
-Generative design is extremely useful for discovering non-intuitive load paths that reduce mass while preserving stiffness. It shines in applications where it is unrestricted by traditional manufacturing constraints - this is where the coupling with PBF merges seamlessly. It has found success in the design of aerospace and automotive components, including heat exchangers, engine mounts, and brake calipers. Drawbacks include dependence on accurate loading and boundary conditions and significant computational demands. Additionally, being handcuffed to PBF has its own drawbacks - limited control over surface finish, internal defects in PBF parts, and high manufacturing costs, as PBF is an expensive process. Even if using PBF to print a generative design component decreases weight and increases strength, it may not be financially feasible. 
+## Design Process and Iterations
 
-In short, powder bed fusion and generative design are powerful technological tools for reducing part count and mass, but its success depends on proper load definition, appropriate constraints, and design objectives. With the market value of PBF expected to exceed $3 billion in 2025, we will likely be seeing much more of this combination in years to come. 
+The solution I converged on was a mold with removable "vein" rods: rigid, precisely-shaped rods that sit inside the mold cavity during casting, physically forming the jugular and carotid canals as negative space, and are then withdrawn after the gel cures - leaving clean, hollow, reusable canals behind instead of embedded tubing.
 
+Getting the rods to insert, seal, and remove reliably took several rounds of iteration:
 
-## Longboard Truck Hanger Design
+* **Threading:** Since standard metric threads proved too brittle for repeated use in high-temp resin, I designed my own thread geometry with a round profile and wide pitch. I also added a 0.4 mm face offset, giving enough clearance to account for the Form 2's reduced dimensional accuracy while still creating a secure connection. 
+* **Sealing:** I added an O-ring with a chamfered mating face at the rod-mold interface. This let the rod seat securely enough to keep liquid gel from leaking out during casting, without requiring a tight tolerance fit that the printer couldn't reliably produce.
+* **Removal:** Each rod was tapered slightly along its length rather than left as a uniform cylinder. The taper let the rod be withdrawn cleanly from the cured gel after casting without tearing the canal, while also helping the surrounding gel form a watertight seal around inserted tubing during actual procedure practice.
+* **Size reduction:** Alongside the canal mechanism, I reduced the overall mold volume and the outer head bust volume, cutting down the model's footprint significantly compared to the original full head bust design.
 
-In this project, I used generative design and PBF to create a truck hanger and motor mount for an electric longboard. In setting up the truck hanger, I selected a single fixed structural constraint on the middle kingpin through-hole to represent the part’s attachment to the deck. That placement is physically reasonable because the kingpin/pivot region is where the hanger is clamped to the assembly, and fixing it forces the computer to carry applied forces through the hanger to that connection. 
+Multiple physical prototypes were printed and cast throughout this process - testing rod removal force, checking for leaks at the threaded interface, and verifying that the cured gel held its shape and canal geometry once the rods were withdrawn.
 
-To decide which forces to apply, I used a combination of mechanics and expected scenarios: static vertical load from rider weight (split between trucks), lateral shear for turning, longitudinal shear for braking, weight of the motor creating a moment against the motor mounting plate, the tension of the belt pulling against the plate, and a moment from the motor’s torque. I placed the vertical, lateral and longitudinal forces at the wheel/axle interfaces because that is where the tire transmits load into the hanger. I added a torsional moment about the pivot to ensure the kingpin region carries realistic twist. I ran separate load-cases to ensure the optimizer met all requirements. 
-
-By creating outcomes using both aluminum and nylon (Nylon12), you can see how the mechanical properties of the material selection impact the generative design process. Aluminum’s stronger mechanical properties result in a lighter, sleeker model with thin trusses and wide gaps between sections, while the nylon model is much bulkier, with fewer gaps and the available space almost completely filled out. If the aluminum model was printed out of nylon and attached to the board, it would not be able to withstand the applied forces and would break. Due to the cost of both metal and polymer SLS printing, I could not print both models out of their intended materials. The aluminum model was printed out of nylon for visualization, not intended for functional use.
+## Final Result 
+The final design is a compact, high-temp resin mold with integrated removable canal rods that casts a puncturable, ultrasound-compatible ballistic gel neck piece, fitting into a significantly downsized head bust. The gel itself replicates the feel and ultrasound appearance of real tissue, letting trainees practice needle insertion and ultrasound-guided localization of the jugular vein and carotid artery. Because the canals are formed by removable rods rather than embedded tubing, the mold can be reused indefinitely — each new training session requires only re-casting the gel, not sourcing and sacrificing a fresh set of tubing. This eliminated the recurring material waste of the original design while also making the overall trainer smaller and easier to store, transport, and prepare for use.
 
 {% include gallery id="gallery1" %}
 
