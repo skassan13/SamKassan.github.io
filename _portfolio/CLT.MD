@@ -50,17 +50,16 @@ Getting the rods to insert, seal, and remove reliably took several rounds of ite
 Multiple physical prototypes were printed and cast throughout this process - testing rod removal force, checking for leaks at the threaded interface, and verifying that the cured gel held its shape and canal geometry once the rods were withdrawn.
 
 ## Final Result 
-The final design is a compact, high-temp resin mold with integrated removable canal rods that casts a puncturable, ultrasound-compatible ballistic gel neck piece, fitting into a significantly downsized head bust. The gel itself replicates the feel and ultrasound appearance of real tissue, letting trainees practice needle insertion and ultrasound-guided localization of the jugular vein and carotid artery. Because the canals are formed by removable rods rather than embedded tubing, the mold can be reused indefinitely — each new training session requires only re-casting the gel, not sourcing and sacrificing a fresh set of tubing. This eliminated the recurring material waste of the original design while also making the overall trainer smaller and easier to store, transport, and prepare for use.
+The final design is a compact, high-temp resin mold with integrated removable canal rods that casts a puncturable, ultrasound-compatible ballistic gel neck piece, fitting into a significantly downsized head bust. The gel itself replicates the feel and ultrasound appearance of real tissue, letting trainees practice needle insertion and ultrasound-guided localization of the jugular vein and carotid artery. Because the canals are formed by removable rods rather than embedded tubing, the mold can be reused indefinitely - each new training session requires only re-casting the gel, not sourcing and sacrificing a fresh set of tubing. This eliminated the recurring material waste of the original design while also making the overall trainer smaller and easier to store, transport, and prepare for use.
 
+## Mold Components and Result
 {% include gallery id="gallery1" %}
-
 
 ## Neck Mold CAD Model
 <iframe src="https://vanderbilt1483.autodesk360.com/shares/public/SH28cd1QT2badd0ea72b3e149a25c501f471?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
-## Aluminum CAD Renders
+## Head Bust and Completed Model
 {% include gallery id="gallery2" %}
-
 
 ## Central Line Trainer CAD Model
 <iframe src="https://vanderbilt1483.autodesk360.com/shares/public/SH28cd1QT2badd0ea72b19a500eb0df9e7e0?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
