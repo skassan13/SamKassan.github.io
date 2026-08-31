@@ -6,8 +6,8 @@ header:
   teaser: assets/img/CLTWhole.png
 gallery1:
   - image_path: assets/img/MoldHorizontal.PNG
-  - image_path: assets/img/Gel.png
   - image_path: assets/img/Prongs.png
+  - image_path: assets/img/Gel.png
 gallery2:
   - image_path: assets/img/CLTbase.PNG
   - image_path: assets/img/CLTWhole.png
