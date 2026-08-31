@@ -9,7 +9,7 @@ gallery1:
   - image_path: assets/img/Gel.png
   - image_path: assets/img/Prongs.png
 gallery2:
-  - image_path: assets/img/CLTbase.png
+  - image_path: assets/img/CLTbase.PNG
   - image_path: assets/img/CLTWhole.png
 
 
