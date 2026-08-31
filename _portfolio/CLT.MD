@@ -5,19 +5,12 @@ header:
   image: assets/img/CLTWhole.png
   teaser: assets/img/CLTWhole.png
 gallery1:
-  - image_path: assets/img/SKhanger.PNG
-  - image_path: assets/img/TopHanger.PNG
-  - image_path: assets/img/SideHanger.PNG
-  - image_path: assets/img/Hanger.PNG
-  - image_path: assets/img/FrontHanger.PNG
-  - image_path: assets/img/Hanger.GIF
+  - image_path: assets/img/MoldHorizontal.PNG
+  - image_path: assets/img/Gel.png
+  - image_path: assets/img/Prongs.png
 gallery2:
-  - image_path: assets/img/HangerRender.png
-  - image_path: assets/img/HangerRenderSK.png
-gallery3:
-  - image_path: assets/img/NylonFrontRender.png
-  - image_path: assets/img/NylonSideRender.png
-
+  - image_path: assets/img/CLTbase.png
+  - image_path: assets/img/CLTWhole.png
 
 
 ---
@@ -62,7 +55,4 @@ By creating outcomes using both aluminum and nylon (Nylon12), you can see how th
 
 ## Nylon CAD Model
 <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH90d2dQT28d5b6028111caa82bc4c423970?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
-
-## Nylon CAD Renders
-{% include gallery id="gallery3" %}
 
